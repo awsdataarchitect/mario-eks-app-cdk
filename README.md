@@ -1,6 +1,6 @@
-# Open source example code for Music Note Transcription on Amazon ECS Fargate with TensorFlow based Deep Learning Model
+# Open-source code for Deploying Super Mario Game on an EKS Cluster using CDK EKS Blueprints
 
-This is a CDK project written in TypeScript that provisions a Streamlit UI based Music Sheet Transcriber (Music Notes Annotator) App powered by Tensorflow Machine Learning Model running on an ECS Fargate Cluster in a VPC with Public Subnets and associated IAM Roles/Policies, Security Groups, Route Tables, Internet Gateway and an Application Load Balancer.
+This is a CDK project written in TypeScript that provisions an EKS Cluster using CDK EKS Blueprints and also the required Kubernetes EKS add-ons (VPC CNI and AWS Load Balancer) along with the Kubernetes manifests (Deployment, Service, Ingress) to launch the Dockerized version of the popular Super Mario Game.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 

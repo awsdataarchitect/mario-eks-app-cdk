@@ -1,8 +1,8 @@
 {
-  "name": "omr-ecs",
+  "name": "mario-eks",
   "version": "0.1.0",
   "bin": {
-    "omr-ecs": "bin/omr-ecs.js"
+    "mario-eks": "bin/mario-eks.js"
   },
   "scripts": {
     "build": "tsc",
@@ -20,6 +20,7 @@
     "typescript": "~5.2.2"
   },
   "dependencies": {
+    "@aws-quickstart/eks-blueprints": "^1.13.1",
     "aws-cdk-lib": "^2.99.1",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
